@@ -60,7 +60,7 @@ try:
 #
         while True:
             try:
-                fq = int(input(' How many should be the frequency? (1-19200Hz)    : '))
+                fq = int(input(' How many should be the frequency? (1-19200Hz)        : '))
                 if fq < 0:
                    fq = 0
                 else:

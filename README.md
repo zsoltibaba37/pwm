@@ -14,7 +14,7 @@ The program looks like this during operation.
  The value of the frequency  :  1 Hz
 --------------------------------------------------------------------------------
  How many percentage should be the duty cycle (1-100%): 30
- How many should be the frequency? (1-19200Hz)    : 10
+ How many should be the frequency? (1-19200Hz)        : 10
 ```
 ### pwm_HU.py
 
