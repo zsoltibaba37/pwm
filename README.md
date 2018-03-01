@@ -42,4 +42,9 @@ or
 $ ./pwm_HU.py
 ```
 
+#### So I tried it out
 
+<p align="center">
+<img src="raspi_pwm.png" width="20%">
+<div align="center"><i>In Fritzing program</i></div>
+</p>
