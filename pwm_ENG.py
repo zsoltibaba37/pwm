@@ -9,7 +9,7 @@ import sys
 import os
 import shutil
 
-import RPi.GPIO as GPIO 
+import RPi.GPIO as GPIO
 GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BOARD) # BCM mean use Broadcom SOC channel (GPIO18), not the pin number. If use GPIO.BOARD then use the pin numer.
@@ -20,7 +20,7 @@ fq = 1  # frequency
 y = 4   # Its just a number for the "ZeroDivisionError" error 
 z = 0
 
-p = GPIO.PWM(12, fq) 
+p = GPIO.PWM(12, fq)
 
 p.start(dc) # Start PWM with 1Hz and 50% duty cycle
 
